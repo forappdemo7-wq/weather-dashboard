@@ -4,7 +4,7 @@ import WeatherSkeleton from '@/components/WeatherSkeleton';
 export default function CityLoading() {
   return (
     <div>
-      <SearchBar />
+      <SearchBar onSearch={() => {}} />
       <WeatherSkeleton />
     </div>
   );
