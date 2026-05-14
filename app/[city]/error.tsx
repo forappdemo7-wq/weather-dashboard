@@ -16,7 +16,7 @@ export default function CityError({
 
   return (
     <div>
-      <SearchBar />
+      <SearchBar onSearch={() => {}} />
       <div className="flex flex-col items-center justify-center min-h-[40vh]">
         <div className="text-6xl mb-4">😕</div>
         <h2 className="text-2xl font-bold text-gray-800 mb-2">
