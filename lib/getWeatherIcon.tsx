@@ -1,7 +1,13 @@
 import React from 'react';
-import { 
-  Sun, Cloud, CloudRain, CloudLightning, 
-  CloudSnow, CloudDrizzle, CloudSun, Fog 
+import {
+  Sun,
+  Cloud,
+  CloudRain,
+  CloudLightning,
+  CloudSnow,
+  CloudDrizzle,
+  CloudSun,
+  CloudFog
 } from 'lucide-react';
 
 // The main large icon helper
