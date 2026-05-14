@@ -247,37 +247,49 @@ export function getAQIInfo(aqi: number) {
   switch (aqi) {
     case 1:
       return {
-        label: 'Good',
+        level: 'Good',
+        message:
+          'Air quality is excellent.',
         color: 'text-green-400'
       };
 
     case 2:
       return {
-        label: 'Fair',
+        level: 'Fair',
+        message:
+          'Air quality is acceptable.',
         color: 'text-yellow-400'
       };
 
     case 3:
       return {
-        label: 'Moderate',
+        level: 'Moderate',
+        message:
+          'Sensitive people should be careful.',
         color: 'text-orange-400'
       };
 
     case 4:
       return {
-        label: 'Poor',
+        level: 'Poor',
+        message:
+          'Health effects may occur.',
         color: 'text-red-400'
       };
 
     case 5:
       return {
-        label: 'Very Poor',
+        level: 'Very Poor',
+        message:
+          'Avoid outdoor activities.',
         color: 'text-purple-400'
       };
 
     default:
       return {
-        label: 'Unknown',
+        level: 'Unknown',
+        message:
+          'No AQI data available.',
         color: 'text-gray-400'
       };
   }
